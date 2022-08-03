@@ -1,1 +1,1 @@
-console.log('Hello World!')
+document.getElementById("thisYear").innerHTML = new Date().getFullYear();
