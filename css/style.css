@@ -102,7 +102,6 @@ ul {
   body { font-size: 1rem;   }
 }
 
-
 /****************************
  * Animations
  ****************************/
@@ -170,6 +169,38 @@ ul {
   );
 }
 
+/* Clearfix hack for float container */
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.section-title h2 {
+  font-family: var(--ff-primary);
+  color: var(--clr-primary);
+}
+
+.section-center {
+  margin: 0 auto;
+  padding: 4rem 0;
+  width: 85vW;
+  max-width: 1170px;
+}
+
+@media screen and (min-width:992px) {
+  .section-center {
+    padding: 4rem 1rem;
+    width: 95vW;
+  }
+}
+
 /*****************************
  * Header Section
  *****************************/
@@ -220,6 +251,57 @@ ul {
 
 .btn-banner:hover {
   outline: 0.125rem solid var(--clr-primary-lt);
+}
+
+
+/****************************
+ * Services
+ ****************************/
+
+.services {
+  background: var(--clr-grey-08);
+}
+
+.service {
+  padding: 2.5rem 0;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.service-icon {
+  display: inline-block;
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+  transition: var(--transition);
+  color: var(--clr-primary);
+}
+
+.service-text {
+  color: var(--clr-grey-05);
+  max-width: 17rem;
+  margin: 0 auto;
+}
+
+.service:hover {
+  background-color: var(--clr-white);
+  box-shadow: 0 2px var(--clr-primary);
+}
+
+.service:hover .service-icon {
+  transform: translateY(-5px); /* Lift the icon */
+}
+
+/* 2 cols on medium screens */
+@media screen and (min-width:576px) {
+  .service {
+    float: left;
+    width: 50%;
+  }
+}
+
+/* 4 cols on big screens */
+@media screen and (min-width:1200px) {
+  .service { width: 25%; }
 }
 
 /****************************

@@ -13,7 +13,7 @@ The main page will contain a *header section* containing some animated elements 
 - [x] Create repo and setup github remote repo
 - [x] Add basic html page linked to a stylesheet with basic generic styles including fonts.
 - [x] Add main header section, footer section, divider and animations.
-- [ ] Add services section.
+- [x] Add services section.
 - [ ] Add contact page section.
 - [ ] Implement the About section
 - [ ] Add main menu with animations
