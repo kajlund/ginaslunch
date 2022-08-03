@@ -156,7 +156,7 @@ ul {
 .btn:hover {
   background: var(--clr-primary-lt);
   color: var(--clr-primary-dk);
-  transform: scale(1.1) translateX(-5px) translateY(-5px);
+  transform: scale(1.01) translateX(-2px) translateY(-2px);
 }
 
 .content-divider {
@@ -255,11 +255,11 @@ ul {
 
 
 /****************************
- * Services
+ * Services Section
  ****************************/
 
 .services {
-  background: var(--clr-grey-08);
+  background: var(--clr-grey-09);
 }
 
 .service {
@@ -305,7 +305,73 @@ ul {
 }
 
 /****************************
- * Footer
+ * Contact Section
+ ****************************/
+
+.contact { background: var(--clr-white); }
+.contact-form, .contact-info { margin: 1rem 0; }
+.contact-item { padding-top: 1.25rem; margin-bottom: 1.75rem; }
+.contact-title { color: var(--clr-primary); font-weight: 400; }
+.contact-text { text-transform: uppercase; }
+.contact-form {
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  text-align: center;
+  box-shadow: var( --shadow-lg);
+  transition: var(--transition);
+  max-width: 35rem;
+}
+
+.contact-form h3, .contact-info h3 {
+  padding-top: 1.25rem;
+  color: var(--clr-grey-05);
+}
+
+.form-group { padding: 1rem 1.5rem; }
+
+.form-control  {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: none;
+  margin-bottom: 1.25rem;
+  background: var(--clr-grey-08);
+  border-radius: var(--radius);
+  /* text-transform: uppercase; */
+  letter-spacing: var(--spacing);
+}
+
+.form-control::placeholder  {
+  font-family: var(--ff-primary);
+  color: var(--clr-grey-02);
+  text-transform: uppercase;
+  letter-spacing: var(--spacing);
+}
+
+.btn-submit {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: none;
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+}
+
+/* 2 cols on medium and larger screens */
+@media screen and (min-width:992px) {
+  .contact-form,
+  .contact-info {
+    float: left;
+    width: 50%;
+  }
+  .about-info {
+    padding-left: 2rem;
+  }
+}
+
+/****************************
+ * Footer Section
  ****************************/
 
 .footer {
