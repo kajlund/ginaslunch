@@ -16,7 +16,7 @@ The main page will contain a *header section* containing some animated elements 
 - [x] Add services section.
 - [x] Add contact page section.
 - [x] Implement the About section
-- [ ] Add main menu with animations
+- [x] Add main menu with animations
 - [ ] Implement the gallery page.
 - [ ] Deploy to Netlify
 
