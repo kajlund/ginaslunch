@@ -471,17 +471,17 @@ ul {
   /* text-align:right; */
   left: 0;
   top:0;
-  height:400px;
-  width: 500px;
-  max-width: 30rem;
+  min-height:400px;
+  width: 100%;
 }
 
 .gmap_canvas {
   border: .125rem solid var(--clr-primary);
   overflow: hidden;
   background: none!important;
+  min-height: 400px;
   height: 400px;
-  width: 500px;
+  width: 100%;
 }
 
 /* 2 cols on big screens */
