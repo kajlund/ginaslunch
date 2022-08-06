@@ -18,7 +18,9 @@ The main page will contain a *header section* containing some animated elements 
 - [x] Implement the About section
 - [x] Add main menu with animations
 - [ ] Implement the gallery page.
-- [ ] Deploy to Netlify
+- [x] Deploy to Netlify
+- [x] Add DNS records for domain
+- [x] Add favicon
 
 
 ## Additional ToDos
@@ -26,3 +28,4 @@ The main page will contain a *header section* containing some animated elements 
 - [ ] Try different fonts. Tried Grand+Hotel, Tangerine
 - [ ] Automation for handling form data sent to Netlify.
 - [ ] Change float layout to flexbox and or grid layout.
+- [ ] Create a logotype.
