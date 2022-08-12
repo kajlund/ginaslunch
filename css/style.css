@@ -72,10 +72,14 @@ img {
 }
 
 h1, h2, h3, h4 {
+  color: var(--clr-grey-05);
   letter-spacing: var(--spacing);
-  text-transform: capitalize;
   line-height: 1.25;
   margin-bottom: 0.75rem;
+}
+
+h1 span, h2 span, h3 span {
+  color: var(--clr-primary);
 }
 
 h1 { font-size: 3rem; }
@@ -137,7 +141,6 @@ ul {
  ****************************/
 
 .btn {
-  text-transform: uppercase;
   background: var(--clr-primary);
   color: var(--clr-white);
   padding: 0.375rem 0.75rem;
@@ -184,6 +187,9 @@ ul {
 
 .section-title h2 {
   font-family: var(--ff-primary);
+}
+
+.section-title span {
   color: var(--clr-primary);
 }
 
@@ -251,10 +257,6 @@ ul {
 
 .btn-nav-close:hover {
   transform: scale(1.2) rotate(-45deg) translateY(-2px) translateX(-2px);
-}
-
-.btn-nav-close:hover {
-  /* color: #bb2525;  */
 }
 
 .nav-items { list-style-type: none; }
@@ -354,7 +356,7 @@ ul {
   font-size: 2.5rem;
   margin-bottom: 1.25rem;
   transition: var(--transition);
-  color: var(--clr-primary);
+  color: var(--clr-grey-05);
 }
 
 .service-text {
@@ -369,6 +371,7 @@ ul {
 }
 
 .service:hover .service-icon {
+  color: var(--clr-primary);
   transform: translateY(-5px); /* Lift the icon */
 }
 
@@ -394,7 +397,6 @@ ul {
 .contact-info { margin: 1rem 0; }
 .contact-item { padding-top: 1.25rem; margin-bottom: 1.75rem; }
 .contact-title { color: var(--clr-primary); font-weight: 400; }
-.contact-text { text-transform: uppercase; }
 .contact-form {
   background: var(--clr-white);
   border-radius: var(--radius);
@@ -404,8 +406,8 @@ ul {
   max-width: 35rem;
 }
 
-.contact-form h3, .contact-info h3 {
-  color: var(--clr-primary);
+.contact-form h3,
+.contact-info h3 {
   padding-top: 1.25rem;
 }
 
@@ -419,7 +421,6 @@ ul {
   margin-bottom: 1.25rem;
   background: var(--clr-grey-09);
   border-radius: var(--radius);
-  /* text-transform: uppercase; */
   letter-spacing: var(--spacing);
 }
 
@@ -516,7 +517,6 @@ footer .social-icon:hover {
 
 .footer-text {
   margin-top: 1.25rem;
-  text-transform: uppercase;
   color: var(--clr-grey-08);
   font-weight: 400;
   font-size: .75rem;
