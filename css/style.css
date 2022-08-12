@@ -180,6 +180,10 @@ ul {
   clear: both;
 }
 
+section {
+  padding: 5rem 0;
+}
+
 .section-title {
   text-align: center;
   margin-bottom: 1rem;
@@ -195,15 +199,13 @@ ul {
 
 .section-center {
   margin: 0 auto;
-  padding: 4rem 0;
-  width: 85vW;
+  width: 90vw;
   max-width: 1170px;
 }
 
-@media screen and (min-width:992px) {
+@media screen and (min-width: 992px) {
   .section-center {
-    padding: 4rem 1rem;
-    width: 95vW;
+    width: 95vw;
   }
 }
 
