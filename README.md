@@ -21,11 +21,11 @@ The main page will contain a *header section* containing some animated elements 
 - [x] Deploy to Netlify
 - [x] Add DNS records for domain
 - [x] Add favicon
+- [x] Change float layout to flexbox and or grid layout.
 
 
 ## Additional ToDos
 
 - [ ] Try different fonts. Tried Grand+Hotel, Tangerine
 - [ ] Automation for handling form data sent to Netlify.
-- [ ] Change float layout to flexbox and or grid layout.
 - [ ] Create a logotype.
